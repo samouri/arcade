@@ -3,14 +3,14 @@
 ## Installation
 
 ```sh
-npm install
+yarn
 ```
 
 ## Build
 
-- Build: `npm run build`
-- Clean: `npm run clean`
-- Build & watch: `npm run start`
+- Build: `yarn run build`
+- Clean: `yarn run clean`
+- Build & watch: `yarn start`
 
 ## Run
 
