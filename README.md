@@ -1,16 +1,18 @@
-# My New Project
+# ReScript Project Template
+
+The only official ReScript starter template.
 
 ## Installation
 
 ```sh
-yarn
+npm install
 ```
 
 ## Build
 
-- Build: `yarn run build`
-- Clean: `yarn run clean`
-- Build & watch: `yarn start`
+- Build: `npm run build`
+- Clean: `npm run clean`
+- Build & watch: `npm run start`
 
 ## Run
 

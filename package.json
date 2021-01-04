@@ -1,24 +1,17 @@
 {
-  "name": "arcade",
+  "name": "rescript-project-template",
   "version": "0.0.1",
   "scripts": {
     "build": "bsb -make-world",
-    "build:watch": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "serve": "http-server",
-    "start": "concurrently \"bsb -make-world -w\" \"http-server\""
+    "start": "bsb -make-world -w"
   },
   "keywords": [
     "rescript"
   ],
-  "author": "Jake Fried",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "*"
-  },
-  "dependencies": {
-    "bs-webapi": "^0.19.1",
-    "concurrently": "^5.3.0",
-    "http-server": "^0.12.3"
   }
 }
